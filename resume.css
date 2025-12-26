@@ -399,10 +399,11 @@ a:hover {
     }
     
     #qrcode img {
-        width: 80px !important; /* Smaller for print */
-        height: 80px !important;
+        width: 150px !important; /* Larger for better scanning */
+        height: 150px !important;
         border: none !important;
         box-shadow: none !important;
+        image-rendering: pixelated; /* Ensure sharp edges */
     }
     
     .qr-text {
