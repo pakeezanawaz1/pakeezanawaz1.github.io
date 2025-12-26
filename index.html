@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakeeza Nawaz - Clinical Psychologist</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="home-body">
+
+    <nav class="navbar">
+        <div class="logo">Pakeeza Nawaz</div>
+        <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="nav-links" id="nav-links">
+            <a href="resume.html" class="nav-link">Resume</a>
+            <a href="https://al-hayat.pk/contact?service=psychology" target="_blank" class="nav-link btn-nav">Book Appointment</a>
+            <button id="theme-toggle" class="theme-toggle-nav" aria-label="Toggle Dark Mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Healing Minds, <br> Empowering Lives</h1>
+            <p class="hero-subtitle">Dedicated Clinical Psychologist specializing in anxiety, depression, and personal growth.</p>
+            <div class="hero-buttons">
+                <a href="resume.html" class="btn btn-primary">View Resume</a>
+                <a href="https://al-hayat.pk/contact?service=psychology" target="_blank" class="btn btn-outline">Book Consultation</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="blob-shape"></div>
+            <i class="fas fa-brain hero-icon"></i>
+        </div>
+    </header>
+
+    <section class="about-teaser">
+        <div class="container">
+            <h2 class="section-heading">Meet Pakeeza</h2>
+            <p class="section-desc">
+                Compassionate and results-oriented Clinical Psychologist with extensive expertise in therapeutic interventions, psychological assessment, and holistic patient care. Proven success in diagnosing and treating complex mental health disorders, including anxiety, depression, and behavioral challenges. Dedicated to empowering individuals through evidence-based practices and fostering lasting mental well-being across diverse clinical and educational settings.
+            </p>
+            <a href="resume.html" class="btn btn-text">Read Full Resume <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <h2 class="section-heading center">My Specialties</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-brain"></i>
+                <h3>Anxiety & Depression</h3>
+                <p>Evidence-based interventions to manage and overcome mood disorders.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-heart"></i>
+                <h3>Relationship Issues</h3>
+                <p>Guidance for couples and families to build stronger connections.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-child"></i>
+                <h3>Child & Parental</h3>
+                <p>Support for developmental concerns and parenting challenges.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-seedling"></i>
+                <h3>Personal Growth</h3>
+                <p>Strategies for self-discovery, confidence, and emotional resilience.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="workplace-section">
+        <div class="container">
+            <h2 class="section-heading">Where I Practice</h2>
+            <div class="workplaces">
+                <div class="workplace-card">
+                    <div class="workplace-icon"><i class="fas fa-hospital-alt"></i></div>
+                    <div class="workplace-info">
+                        <h3>Al-Hayat Physio & Rehab Clinic</h3>
+                        <p>Bahria Town, Lahore</p>
+                        <a href="https://www.al-hayat.pk" target="_blank" class="workplace-link">Visit Website</a>
+                    </div>
+                </div>
+                <div class="workplace-card">
+                    <div class="workplace-icon"><i class="fas fa-clinic-medical"></i></div>
+                    <div class="workplace-info">
+                        <h3>Mumtaz Bakhtawar Hospital</h3>
+                        <p>Wahdat Road, Lahore</p>
+                        <span class="workplace-status">Current</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-section">
+        <div class="container">
+            <blockquote>
+                "The good life is a process, not a state of being. It is a direction not a destination."
+            </blockquote>
+            <cite>- Carl Rogers</cite>
+        </div>
+    </section>
+
+    <footer class="home-footer">
+        <div class="footer-contact-info">
+            <a href="mailto:pakeeza@al-hayat.pk"><i class="fas fa-envelope"></i> pakeeza@al-hayat.pk</a>
+            <a href="tel:+923266179375"><i class="fas fa-phone"></i> +92 326 6179375</a>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/pakeeza-nawaz1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/pakeezanawaz1" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <p>&copy; 2025 Pakeeza Nawaz. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+            
+            // Toggle icon
+            const icon = hamburger.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.replace('fa-bars', 'fa-times');
+            } else {
+                icon.classList.replace('fa-times', 'fa-bars');
+            }
+        });
+
+        // Close menu when link is clicked
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+                hamburger.querySelector('i').classList.replace('fa-times', 'fa-bars');
+            });
+        });
+    </script>
+</body>
+</html>
