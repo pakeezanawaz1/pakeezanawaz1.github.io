@@ -39,7 +39,7 @@
 - Collaborate with multidisciplinary teams to ensure holistic patient rehabilitation.
 
 ### **Clinical Psychologist**
-**Mumtaz Bakhtawar Memorial Trust Hospital** | *Oct 2025 – Present*
+**Mumtaz Bakhtawar Memorial Trust Hospital II** | *Oct 2025 – Present*
 - Deliver outpatient psychological services to a diverse patient population.
 - Facilitate counseling sessions for stress management and emotional regulation.
 - Administer standardized psychological tests for cognitive and personality assessment.
