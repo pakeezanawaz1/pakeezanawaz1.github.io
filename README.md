@@ -6,6 +6,7 @@
 📧 [pakeeza@al-hayat.pk](mailto:pakeeza@al-hayat.pk) | 📞 +92 326 6179375  
 🌐 [www.al-hayat.pk](https://www.al-hayat.pk)  
 
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/pakeezanawaz1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pakeeza-nawaz1/)
 [![Book Appointment](https://img.shields.io/badge/Book_Appointment-Schedule_Now-teal?style=for-the-badge&logo=google-calendar)](https://al-hayat.pk/contact?service=psychology)
 [![Website](https://img.shields.io/badge/Personal_Website-Visit_Now-purple?style=for-the-badge&logo=google-chrome)](https://pakeezanawaz1.github.io/pakeezanawaz1/)
@@ -92,7 +93,7 @@
 ### 🌐 About This Repository
 This repository serves as my personal portfolio and resume website.
 - **View Live Site:** [https://pakeezanawaz1.github.io/pakeezanawaz1/](https://pakeezanawaz1.github.io/pakeezanawaz1/)
-- **Download CV:** [Download PDF](resume.html) (via Print to PDF on the website)
+- **Download CV:** [Download PDF](https://pakeezanawaz1.github.io/pakeezanawaz1/resume.html) (via Print to PDF on the website)
 
 ---
 <p align="center">
