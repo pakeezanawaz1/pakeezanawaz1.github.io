@@ -39,7 +39,7 @@
         </div>
     </header>
 
-    <section class="about-teaser">
+    <section class="about-teaser reveal">
         <div class="container">
             <h2 class="section-heading">Meet Pakeeza</h2>
             <p class="section-desc">
@@ -50,34 +50,34 @@
     </section>
 
     <section class="features-section">
-        <h2 class="section-heading center">My Specialties</h2>
+        <h2 class="section-heading center reveal">My Specialties</h2>
         <div class="features-grid">
-            <div class="feature-card">
+            <div class="feature-card reveal delay-100">
                 <i class="fas fa-brain"></i>
                 <h3>Anxiety & Depression</h3>
                 <p>Evidence-based interventions to manage and overcome mood disorders.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card reveal delay-200">
                 <i class="fas fa-heart"></i>
                 <h3>Relationship Issues</h3>
                 <p>Guidance for couples and families to build stronger connections.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card reveal delay-300">
                 <i class="fas fa-child"></i>
                 <h3>Child & Parental</h3>
                 <p>Support for developmental concerns and parenting challenges.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card reveal delay-100">
                 <i class="fas fa-seedling"></i>
                 <h3>Personal Growth</h3>
                 <p>Strategies for self-discovery, confidence, and emotional resilience.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card reveal delay-200">
                 <i class="fas fa-user-injured"></i>
                 <h3>Trauma & PTSD</h3>
                 <p>Compassionate care for healing from traumatic experiences and restoring safety.</p>
             </div>
-            <div class="feature-card">
+            <div class="feature-card reveal delay-300">
                 <i class="fas fa-spa"></i>
                 <h3>Stress Management</h3>
                 <p>Techniques to reduce stress, prevent burnout, and enhance relaxation.</p>
@@ -87,9 +87,9 @@
 
     <section class="workplace-section">
         <div class="container">
-            <h2 class="section-heading">Where I Practice</h2>
+            <h2 class="section-heading center reveal">Where I Practice</h2>
             <div class="workplaces">
-                <div class="workplace-card">
+                <div class="workplace-card reveal-left delay-100">
                     <div class="workplace-icon"><i class="fas fa-hospital-alt"></i></div>
                     <div class="workplace-info">
                         <h3>Al-Hayat Physio & Rehab Clinic</h3>
@@ -97,7 +97,7 @@
                         <a href="https://www.al-hayat.pk" target="_blank" class="workplace-link">Visit Website</a>
                     </div>
                 </div>
-                <div class="workplace-card">
+                <div class="workplace-card reveal-right delay-200">
                     <div class="workplace-icon"><i class="fas fa-clinic-medical"></i></div>
                     <div class="workplace-info">
                         <h3>Mumtaz Bakhtawar Hospital II</h3>
@@ -109,7 +109,7 @@
         </div>
     </section>
 
-    <section class="quote-section">
+    <section class="quote-section reveal">
         <div class="container">
             <blockquote>
                 "The good life is a process, not a state of being. It is a direction not a destination."
@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <footer class="home-footer">
+    <footer class="home-footer reveal">
         <div class="footer-contact-info">
             <a href="mailto:pakeeza@al-hayat.pk"><i class="fas fa-envelope"></i> pakeeza@al-hayat.pk</a>
             <a href="tel:+923266179375"><i class="fas fa-phone"></i> +92 326 6179375</a>
@@ -161,6 +161,25 @@
                 hamburger.querySelector('i').classList.replace('fa-times', 'fa-bars');
             });
         });
+
+        // Scroll Reveal Animation
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal, .reveal-left, .reveal-right");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
+        // Trigger once on load
+        reveal();
     </script>
 </body>
 </html>
