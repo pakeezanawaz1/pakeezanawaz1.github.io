@@ -96,6 +96,13 @@ This repository serves as my personal portfolio and resume website.
 - **Download CV:** [Download PDF](https://pakeezanawaz1.github.io/pakeezanawaz1/resume.html) (via Print to PDF on the website)
 
 ---
+
+<p align="center">
+  Developed by <a href="https://github.com/nadeem0199">Nadeem</a><br>
+  <a href="https://github.com/nadeem0199">GitHub</a> | <a href="https://www.linkedin.com/in/nadeem0199/">LinkedIn</a>
+</p>
+
+---
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=008080&height=100&section=footer"/>
 </p>
