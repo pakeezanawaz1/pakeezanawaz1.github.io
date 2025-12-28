@@ -9,7 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/pakeezanawaz1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pakeeza-nawaz1/)
 [![Book Appointment](https://img.shields.io/badge/Book_Appointment-Schedule_Now-teal?style=for-the-badge&logo=google-calendar)](https://al-hayat.pk/contact?service=psychology)
-[![Website](https://img.shields.io/badge/Personal_Website-Visit_Now-purple?style=for-the-badge&logo=google-chrome)](https://pakeezanawaz1.github.io/pakeezanawaz1/)
+[![Website](https://img.shields.io/badge/Personal_Website-Visit_Now-purple?style=for-the-badge&logo=google-chrome)](https://pakeezanawaz1.github.io/)
 
 ---
 
@@ -92,8 +92,8 @@
 
 ### 🌐 About This Repository
 This repository serves as my personal portfolio and resume website.
-- **View Live Site:** [https://pakeezanawaz1.github.io/pakeezanawaz1/](https://pakeezanawaz1.github.io/pakeezanawaz1/)
-- **Download CV:** [Download PDF](https://pakeezanawaz1.github.io/pakeezanawaz1/resume.html) (via Print to PDF on the website)
+- **View Live Site:** [https://pakeezanawaz1.github.io/pakeezanawaz1/](https://pakeezanawaz1.github.io/)
+- **Download CV:** [Download PDF](https://pakeezanawaz1.github.io/resume.html) (via Print to PDF on the website)
 
 ---
 
