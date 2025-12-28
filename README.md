@@ -92,7 +92,7 @@
 
 ### 🌐 About This Repository
 This repository serves as my personal portfolio and resume website.
-- **View Live Site:** [https://pakeezanawaz1.github.io/pakeezanawaz1/](https://pakeezanawaz1.github.io/)
+- **View Live Site:** [https://pakeezanawaz1.github.io/](https://pakeezanawaz1.github.io/)
 - **Download CV:** [Download PDF](https://pakeezanawaz1.github.io/resume.html) (via Print to PDF on the website)
 
 ---
