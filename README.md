@@ -7,7 +7,7 @@
 🌐 [www.al-hayat.pk](https://www.al-hayat.pk)  
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=for-the-badge&logo=github)](https://github.com/pakeezanawaz1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pakeeza-nawaz1/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/pakeezanawaz1/)
 [![Book Appointment](https://img.shields.io/badge/Book_Appointment-Schedule_Now-teal?style=for-the-badge&logo=google-calendar)](https://al-hayat.pk/contact?service=psychology)
 [![Website](https://img.shields.io/badge/Personal_Website-Visit_Now-purple?style=for-the-badge&logo=google-chrome)](https://pakeezanawaz1.github.io/)
 
