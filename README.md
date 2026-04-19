@@ -45,7 +45,7 @@
 - Administer standardized psychological tests for cognitive and personality assessment.
 
 ### **Clinical Psychologist**
-**Govt. Girls School, Bhallai Gill Defence Road, Lahore** | *Dec 2021 – May 2024*
+**Govt. Girls School, Bhallai Gill Defence Road, Lahore** | *Dec 2021 – Mar 2025*
 - Provided counseling support to students addressing academic stress, behavioral issues.
 - Conducted mental health awareness workshops for students and faculty.
 - Assisted in the development of individualized educational plans.
