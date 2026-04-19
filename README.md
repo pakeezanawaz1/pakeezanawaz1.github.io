@@ -33,7 +33,7 @@
 ## 💼 Professional Experience
 
 ### **Clinical Psychologist**
-**Al-Hayat Physio & Rehab Clinic** | *2021 – Present*
+**Al-Hayat Physio & Rehab Clinic** | *Jan 2022 – Present*
 - Provide individual psychotherapy for clients dealing with anxiety, depression, and trauma.
 - Conduct psychological assessments to formulate accurate diagnoses and treatment plans.
 - Collaborate with multidisciplinary teams to ensure holistic patient rehabilitation.
